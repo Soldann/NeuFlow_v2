@@ -4,7 +4,7 @@ import argparse
 
 from NeuFlow.neuflow import NeuFlow
 from NeuFlow import backbone_v7
-from data_utils.evaluate import validate_things, validate_sintel, validate_kitti
+from NeuFlow.data_utils.evaluate import validate_things, validate_sintel, validate_kitti
 
 def get_args_parser():
     parser = argparse.ArgumentParser()

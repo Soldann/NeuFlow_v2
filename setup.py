@@ -4,7 +4,7 @@ setup(name='NeuFlow_v2',
       version='1.0',
       description='Fast Optical Flow Algorithm',
       url='https://github.com/Soldann/NeuFlow_v2',
-      packages=['NeuFlow'],
+      packages=['NeuFlow', "NeuFlow.data_utils"],
       install_requires=[
         "torch",
         "huggingface_hub",

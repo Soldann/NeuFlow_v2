@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 from NeuFlow.neuflow import NeuFlow
 from NeuFlow.backbone_v7 import ConvBlock
-from data_utils import flow_viz
+from NeuFlow.data_utils import flow_viz
 
 
 image_width = 768

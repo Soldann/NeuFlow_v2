@@ -2,7 +2,7 @@ from glob import glob
 from PIL import Image
 import numpy as np
 import os
-from data_utils import frame_utils
+from NeuFlow.data_utils import frame_utils
 
 
 dataset_root = '/media/goku/data/zhiyongzhang/optical_flow/datasets/FlyingThings3D/'
