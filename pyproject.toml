@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NeuFlow_v2"
+description = "Fast Dense Optical Flow Algorithm"
+version = "1.0"
+
+dependencies = [
+    "torch",
+    "huggingface_hub",
+]
+
+[project.urls]
+source = "https://github.com/Soldann/NeuFlow_v2"
+base_repo = "https://github.com/neufieldrobotics/NeuFlow_v2"
+
+[tool.setuptools.packages.find]
+include = ["NeuFlow", "NeuFlow.data_utils"]
